@@ -102,3 +102,20 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Yarn v2
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# compiled assets in public folder
+/public/.well-known
+/public/robots.txt
+/public/sitemap.xml
+
+.env*
+!.env.example
