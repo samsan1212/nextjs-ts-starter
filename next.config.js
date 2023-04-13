@@ -15,7 +15,7 @@ const nextConfig = {
     fallback: [
       {
         source: "/:path*",
-        destination: `/download-app`,
+        destination: `/abcd`,
       },
     ],
   }),
